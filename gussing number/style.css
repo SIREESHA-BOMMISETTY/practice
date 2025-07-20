@@ -1,0 +1,109 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    padding: 40px 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.instructions {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #ddd;
+}
+
+.input-box {
+    padding: 12px 15px;
+    width: 70%;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255,255,255,0.2);
+    color: #fff;
+    transition: background 0.3s ease;
+}
+
+.input-box::placeholder {
+    color: #ccc;
+}
+
+.input-box:focus {
+    background: rgba(255,255,255,0.3);
+}
+
+.btn {
+    padding: 12px 25px;
+    background-color: #00c6ff;
+    background-image: linear-gradient(45deg, #00c6ff, #0072ff);
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(45deg, #0072ff, #0056b3);
+}
+
+.result-text {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 12px;
+    background: rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+.attempt-field {
+    color: #ffeb3b;
+    font-size: 2.5rem;
+    margin-top: 10px;
+}
+
+.division p {
+    color: #ffeb3b;
+    margin-top: 15px;
+    font-size: 1.1rem;
+}
+
+.reset-btn {
+    padding: 12px 25px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.reset-btn:hover {
+    background-color: #e8434c;
+    transform: scale(1.05);
+}
